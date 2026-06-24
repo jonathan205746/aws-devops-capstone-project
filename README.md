@@ -59,25 +59,10 @@ The architecture includes a custom VPC, public and private subnets, Application 
 * Automated application installation and deployment using Bash scripting
 * Managed source code and deployment files using Git and GitHub
 
+## Architecture Diagram
 
-# Project-503 : Blog Page Application (Django) deployed on AWS Application Load Balancer with Auto Scaling, S3, Relational Database Service(RDS), VPC's Components, Lambda, DynamoDB and Cloudfront with Route 53
+![Architecture](capstone.jpg)
 
-## Description
+## Project Outcome
 
-The Clarusway Blog Page Application aims to deploy blog application as a web application written Django Framework on AWS Cloud Infrastructure. This infrastructure has Application Load Balancer with Auto Scaling Group of Elastic Compute Cloud (EC2) Instances and Relational Database Service (RDS) on defined VPC. Also, The Cloudfront and Route 53 services are located in front of the architecture and manage the traffic in secure. User is able to upload pictures and videos on own blog page and these are kept on S3 Bucket. This architecture will be created by Firms DevOps Guy.
-
-## Project Skeleton 
-
-```text
-clarusway_blog_proj (folder)
-|
-|----Readme.md               # Given to the students (Definition of the project)
-|----src (folder)            # Given to the students (Django Application's )
-|----requirements.txt        # Given to the students (txt file)
-|----lambda_function.py      # Given to the students (python file)
-|----developer_notes.txt     # Given to the students (txt file)
-```
-
-## Expected Outcome
-
-![Phonebook App Search Page](./outcome.png)
+![Outcome](outcome.png)
