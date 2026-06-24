@@ -50,6 +50,20 @@ The architecture includes a custom VPC, public and private subnets, Application 
 └── README.md               # Project documentation
 ```
 
+## AWS Services Used
+
+- VPC
+- EC2
+- Application Load Balancer
+- Auto Scaling Group
+- RDS
+- S3
+- Lambda
+- DynamoDB
+- CloudFront
+- Route 53
+- IAM
+
 ## My Responsibilities
 
 * Designed and configured AWS networking components including VPC, subnets, route tables, Internet Gateway, NAT, and security groups
