@@ -50,10 +50,8 @@ The project also includes deployment automation through an EC2 user data script 
 ├── lambda_function.py      # Lambda function for S3 event processing
 ├── userdata.sh             # EC2 user data script for application setup
 ├── requirements.txt        # Python dependencies
-├── developer_notes.txt     # Application deployment notes
 ├── capstone.jpg            # Architecture diagram
 ├── outcome.png             # Expected project outcome
-├── Readme_solution.md      # Solution notes
 └── README.md               # Project documentation
 ```
 
