@@ -1,12 +1,12 @@
 # AWS DevOps Capstone Project
 
-## Project Overview
+Project Overview
 
-This project demonstrates the deployment of a highly available **Django-based blog application** on AWS using cloud-native architecture and DevOps best practices.
+This project demonstrates the deployment of a highly available Django-based blog application on AWS using cloud-native architecture and DevOps best practices.
 
-The solution is designed with scalability, fault tolerance, and security in mind. It leverages multiple AWS services—including **VPC, EC2, Application Load Balancer, Auto Scaling Group, RDS, S3, Lambda, DynamoDB, CloudFront, and Route 53**—to build a production-inspired web application infrastructure.
+The solution is designed with scalability, fault tolerance, and security in mind. It leverages multiple AWS services—including Amazon VPC, EC2, Application Load Balancer, Auto Scaling Group, RDS, S3, Lambda, DynamoDB, CloudFront, and Route 53—to build a production-inspired web application infrastructure.
 
-The project also includes deployment automation using a Bash user data script and serverless processing of S3 events through AWS Lambda.
+The project also includes deployment automation through an EC2 user data script and serverless processing of S3 object events using AWS Lambda.
 
 ## Technologies Used
 
